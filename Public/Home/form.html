@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <title>new document</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="author" content="rex" />
+    <meta name="copyright" content="thinkSite" />
+    <meta name="description" content="thinkSite" />
+    <meta name="keywords" content="thinkSite" />
+    <link rel="shortcut icon" type="image/x-icon" href="">
+	<script type="text/javascript" src="jquery1.8.3.min.js"></script>
+	<script type="text/javascript" src="./validation/dist/jquery.validate.min.js"></script><script src="./validation/dist/additional-methods.js"></script>
+	<script type="text/javascript" src="./validation/lib/jquery.form.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<style type="text/css">
+	
+  .boss{
+		width:700px;
+		border:0px solid red;
+		margin:50px auto;
+  }
+  .second div span{
+		display:inline-block;
+		width:80px;
+		margin-left:15px;
+  }
+  .but{
+		height:40px;
+		width:100px;
+		margin:10px 100px;
+  }
+  </style>
+  </head>
+  <body>
+  <div class="boss">
+	    <form action="" class="second">
+			  <div>	
+					<span>用户名：</span>
+					<input type="text" name="user">
+		  </div>
+			  <div>
+					<span>密码：</span>
+					<input type="password" name="pass">
+			  </div>
+			  <div>
+					<span>确认密码：</span>
+					<input type="password" name="repass">
+			  </div>
+			  <div>
+					<span>邮箱：</span>
+					<input type="text" name="email">
+			  </div>
+			  <div>
+					<span>手机：</span>
+					<input type="text" name="mobile">
+			  </div>
+			  <div>
+					<input type="submit" value="提交" class="but">
+			  </div>
+	    </form> 
+   </div>
+  </body>
+</html>
+<script type="text/javascript">
+$(".second").validate(
+{	
+	//配置验证规则
+	rules:
+	{
+		user:
+		{
+			required:true,
+			maxlength:20,
+			minlength:8,
+			remote:"ajax.php"
+		},
+		pass:
+		{
+			required:true,
+			maxlength:20,
+			minlength:8,
+		},
+		repass:
+		{
+			equalTo:"input[name=pass]"
+		},
+		email:
+		{
+			required:true,
+			email:true
+		},
+		mobile:
+		{
+			required:true,
+			chinaphone:true,
+		}
+	},
+	messages:{
+				user:
+				{
+					required:"填写账户",
+					maxlength:"最多20个字节",
+					minlength:"至少8个字节",
+					remote:'用户名已被注册',
+				}, 
+				pass:{
+					required:"填写密码",
+					minlength:"至少8个字节",
+					maxlength:"最多20个字节"
+				},
+				repass:
+				{
+					equalTo:"两次密码输入必须一致"
+				},
+				email:
+				{
+					required:"填写邮箱",
+					email:"邮箱格式不正确",
+				},
+				mobile:
+				{
+					required:"手机号必填",
+				}
+			},
+			onkeyup:false,
+			//设置表单提交....
+			submitHandler:function(form){
+				// 使用ajaxsubmit进行表单提交时，需要引入一个jquery.form.js的文件
+				$(form).ajaxSubmit({
+					type:"post",
+					url:"./form.php",
+					success:function(res){
+						if(res==1){
+							layer.alert('注册成功',{icon:1},function(index){
+								window.location.reload();
+							})
+						}else{
+							layer.alert('注册失败',{icon:2},function(index){
+								window.location.reload();
+							})
+						}
+					}
+				});
+			}
+})
+
+
+</script>

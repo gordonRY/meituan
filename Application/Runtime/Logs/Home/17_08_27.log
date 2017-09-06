@@ -1,0 +1,43 @@
+[ 2017-08-27T12:11:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/check_name.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `h_oauth_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_oauth_user` WHERE ( username='biubiubiubiu' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-27T12:11:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/check_name.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_oauth_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_oauth_user` WHERE ( username='biubiubiubiu' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-27T12:11:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-27T12:21:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay/oid/16.html
+ERR: 1048:Column 'o_saluid' cannot be null
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15038076695716','2017-08-27 12:21:09','0','似水柔情','1',NULL)
+
+[ 2017-08-27T12:21:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay/oid/16.html
+ERR: 1048:Column 'o_saluid' cannot be null
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15038077189197','2017-08-27 12:21:58','0','似水柔情','1',NULL)
+
+[ 2017-08-27T16:25:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_info.htmlArray
+ERR: 非法操作:order_info.htmlArray
+
+[ 2017-08-27T16:36:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_info/oid/179.html
+ERR: 1054:Unknown column 'hdo.detail_pid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM h_order ord inner join h_order_detail hod on hod.detail_oid=ord.o_id inner join h_product hp on hp.p_id=hdo.detail_pid  WHERE ( ord.o_id='179' ) 
+

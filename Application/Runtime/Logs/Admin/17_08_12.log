@@ -1,0 +1,88 @@
+[ 2017-08-12T09:59:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_add.html
+ERR: 非法操作:product_add
+
+[ 2017-08-12T09:59:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_add.html
+ERR: 非法操作:product_add
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/webuploader/0.1.5/webuploader.css
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:01:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lib
+
+[ 2017-08-12T10:36:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Index/form.html
+ERR: 非法操作:form
+
+[ 2017-08-12T10:38:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Index/form.html
+ERR: 非法操作:form
+
+[ 2017-08-12T10:39:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Index/form.html
+ERR: 非法操作:form
+
+[ 2017-08-12T10:39:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Index/form.html
+ERR: 非法操作:form
+
+[ 2017-08-12T14:07:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.2540s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.2660s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502518019',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.8440s ]
+
+[ 2017-08-12T14:07:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0070s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502518071',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0290s ]
+

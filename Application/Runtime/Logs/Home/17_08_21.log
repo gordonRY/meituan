@@ -1,0 +1,87 @@
+[ 2017-08-21T20:42:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order.html?product_num=1&p_name=%E6%8B%8D%E5%A9%9A%E7%BA%B1%EF%BC%8C%E5%B8%A6%E4%B8%8A%E8%80%81%E7%8E%8B%E5%85%8D%E8%B4%B9%E5%93%A6&gprice=2&pid=4
+ERR: 模板不存在:./Application/Home/View/Index/login.html
+
+[ 2017-08-21T20:47:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order.html?product_num=1&p_name=%E6%B1%A4%E6%A3%AE%E7%9C%9F%E9%9F%A9%E5%BC%8F%E6%B1%97%E8%92%B8%E6%96%87%E5%8C%96%E6%B1%A4%EF%BC%8C1%E4%BA%BA&gprice=66&pid=3
+ERR: 模板不存在:./Application/Home/View/Index/login.html
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/additional-methods.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/lib/jquery.form.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/jquery1.8.3.min.js
+ERR: 非法操作:jquery1.8.3.min.js
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/jquery.validate.min.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/layer/layer.js
+ERR: 非法操作:layer
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/additional-methods.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/lib/jquery.form.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:49:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/layer/layer.js
+ERR: 非法操作:layer
+
+[ 2017-08-21T20:50:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/jquery.validate.min.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/jquery1.8.3.min.js
+ERR: 非法操作:jquery1.8.3.min.js
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/lib/jquery.form.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/layer/layer.js
+ERR: 非法操作:layer
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/jquery.validate.min.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/additional-methods.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/lib/jquery.form.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:50:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/layer/layer.js
+ERR: 非法操作:layer
+
+[ 2017-08-21T20:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/jquery1.8.3.min.js
+ERR: 非法操作:jquery1.8.3.min.js
+
+[ 2017-08-21T20:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/jquery.validate.min.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/dist/additional-methods.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/validation/lib/jquery.form.js
+ERR: 非法操作:validation
+
+[ 2017-08-21T20:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/layer/layer.js
+ERR: 非法操作:layer
+
+[ 2017-08-21T20:54:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/ajax.php?user=mymymymy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:ajax.php
+
+[ 2017-08-21T20:55:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/ajax.php?user=mymymymy
+ERR: 非法操作:ajax.php
+
+[ 2017-08-21T20:59:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/ajax.php?user=urlurlurlurl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:ajax.php
+
+[ 2017-08-21T21:24:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/login.html
+ERR: 非法操作:login
+

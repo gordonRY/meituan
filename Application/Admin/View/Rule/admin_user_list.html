@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <include file="Public/meta" />
+</head>
+<body>
+    <div class="info-center">
+        <div class="page-header">
+            <div class="pull-left">
+                <h4>管理员列表</h4>      
+            </div>
+            <a href="{:U('rule/add_admin')}"  class="btn btn-primary pull-right margin-top">添加管理员</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="table-margin">
+            <table class="table table-hover table-header" id="list-table">
+                <thead>
+                    <tr>
+                        <td>管理员账号</td>
+                        <td>所属用户组</td>
+                        <td>状态</td>
+                        <td class="w10">操作</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <foreach name="infos" item="vo">
+                        <tr>
+                            <td>{$vo['admin_name']}</td>
+                            <td>
+                                {$vo['title']}
+                            </td>
+                            <td>
+                                <if condition="$vo.status eq 1">
+                                    允许登陆
+                                <else/>
+                                    <font color="red">禁止登陆</font>
+                                </if>
+                            </td>
+                            <td>
+                                <a href="{:U('Admin/Rule/edit_admin',array('id'=>$vo['admin_id']))}"> <span class="glyphicon glyphicon-pencil" alt="修改信息和权限" title="修改信息和权限"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a  class="admin_delete" value="{$vo['admin_id']}"><span class="glyphicon glyphicon-trash" alt="删除" title="删除" ></span></a>
+                            </td>
+                        </tr>
+                    </foreach>
+					<tr align="right">
+                        <td colspan=4 >{$list}</td>
+  
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div> 
+    <script type="text/javascript" src="__ADMIN_JS__/common.js"></script>
+</body>
+</html>
+<script>
+
+    $(".admin_delete").click(function()
+    {
+        id=$(this).attr("value");
+        data="id="+id;
+        saveurl='{:U("Admin/Rule/delete_admin")}';
+        layer.confirm('确认删除？', {icon: 3, title:'提示'}, function(index){
+            $.post(saveurl,data,function(res){
+           if(res=="1")
+           {
+               layer.msg("删除成功", {icon: 6},function()
+               {
+                   window.location.reload();
+               })
+           }
+           else if(res=="2")
+                {
+                    layer.msg("删除失败", {icon: 6},function()
+                    {
+                        window.location.reload();
+                    })
+                }
+           else if(res=="3")
+           {
+                    layer.msg("该用户不能被删除",{icon:6},function()
+                    {
+                        window.location.reload();
+                    })
+           }
+           else if(res=="4")
+           {
+               layer.msg("权限不够",{icon:6},function()
+               {
+                   window.location.reload();
+               })
+           }
+            },"json")
+            layer.close(index);
+        })
+
+    })
+
+
+
+
+</script>

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <include file="Public/meta" />
+</head>
+<body>
+    <div class="info-center">
+        <div class="page-header">
+            <div class="pull-left">
+                <h4>用户组列表</h4>      
+            </div>
+            <a href="javascript:;" onclick="add()" class="btn btn-primary pull-right margin-top">添加用户组</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="table-margin">
+            <table class="table table-hover table-header" id="list-table">
+                <thead>
+                    <tr>
+                        <td>编号</td>
+                        <td>用户组名</td>
+                        <td>状态</td>
+                        <td class="w15">操作</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <foreach name="data" item="vo">
+                        <tr>
+                            <td>{$vo['gid']}</td>
+                            <td>
+                                {$vo['title']}
+                            </td>
+                            <td>
+                                <img width="20" height="20" src="__ADMIN_IMAGES__/<if condition='$vo[status] eq 1'>yes.png<else />cancel.png</if>" onclick="changeTableVal('auth_group','id','{$vo.id}','status',this)"/>
+                            </td>
+                            <td><a href="javascript:;" ruleid="{$vo['gid']}" ruletitle="{$vo['title']}" onclick="edit(this)"><span class="glyphicon glyphicon-pencil" alt="修改" title="修改"></span></a>
+                                <if condition="$vo['type']!=1">
+
+                                    <span class="text-explode">|</span>
+                                    <!--if(confirm('确定删除？'))location='{:U('Admin/Rule/delete_group',array('gid'=>$vo['gid']))}'-->
+                                    <a value="{$vo['gid']}" class="delete_group"><span class="glyphicon glyphicon-trash" title="删除" title="删除"></span></a>
+                                    <span class="text-explode">|</span>
+
+                                <a href="{:U('Admin/rule/index',array('gid'=>$vo['gid']))}">分配权限</a>
+
+                                </if>
+                            </td>
+                        </tr>
+                    </foreach>
+                </tbody>
+            </table>
+        </div>
+    </div> 
+    <div class="modal fade" id="bjy-add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel"> 添加用户组</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="bjy-form" class="form-horizontal" action="{:U('Admin/Rule/add_group')}" method="post">
+                        <table class="table table-hover contact-template-form">
+                            <tbody><tr>
+                                <td width="20%" align="right">用户组名：</td>
+                                <td>
+                                    <input class="form-control" type="text" name="title">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input class="btn btn-primary" type="submit" value="添加">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="bjy-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel"> 修改用户组</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="bjy-form" class="form-horizontal" action="{:U('Admin/Rule/edit_group')}" method="post">
+                        <input type="hidden" name="id">
+                        <table class="table table-hover contact-template-form">
+                            <tbody><tr>
+                                <td width="20%" align="right">用户组名：</td>
+                                <td>
+                                    <input class="form-control" type="text" name="title">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary" type="submit" value="修改">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="__ADMIN_JS__/common.js"></script>
+    <script>
+    function add(){
+        $("input[name='title']").val('');
+        $('#bjy-add').modal('show');
+    }
+    function edit(obj){
+        var ruleId=$(obj).attr('ruleId');
+        var ruletitle=$(obj).attr('ruletitle');
+        $("input[name='id']").val(ruleId);
+        $("input[name='title']").val(ruletitle);
+        $('#bjy-edit').modal('show');
+    }
+    $(".delete_group").click(function()
+    {
+         gid=$(this).attr("value");
+        saveurl="{:U('Admin/Rule/delete_group')}";
+         data="gid="+gid;
+        layer.alert(saveurl)
+        layer.confirm("确认删除吗？",{icon:3},function(index)
+        {
+            $.get(saveurl,data,function(res)
+            {
+                if(res==1)
+                {
+                    layer.msg("删除成功",{icon:1},function()
+                    {
+                        window.location.reload();
+
+                    })
+                }
+                else
+                {
+                    layer.msg("删除失败",{icon:2},function()
+                    {
+                        window.location.reload();
+                    })
+                }
+            },"text");
+            layer.close(index);
+        });
+    })
+    </script>
+</body>
+</html>

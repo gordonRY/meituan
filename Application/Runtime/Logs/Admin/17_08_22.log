@@ -1,0 +1,194 @@
+[ 2017-08-22T15:18:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.1220s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0810s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0730s ]
+
+[ 2017-08-22T16:48:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/use_code' ) LIMIT 1   [ RunTime:0.0090s ]
+
+[ 2017-08-22T18:33:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Product/addr_change' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.1480s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.1990s ]
+
+[ 2017-08-22T18:52:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Product/addr_change' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0040s ]
+
+[ 2017-08-22T18:53:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Product/addr_change' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0070s ]
+
+[ 2017-08-22T18:54:17+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Product/addr_change' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0080s ]
+
+[ 2017-08-22T18:55:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Product/addr_change' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0070s ]
+
+[ 2017-08-22T20:37:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/index.html
+ERR: 1054:Unknown column 'detail_oid' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `h_order` WHERE ( detail_oid='114' )
+
+[ 2017-08-22T22:49:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id="$id" )  [ RunTime:0.0010s ]
+
+[ 2017-08-22T22:50:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id="$id" )  [ RunTime:0.0010s ]
+
+[ 2017-08-22T22:51:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id="$id" )  [ RunTime:0.0010s ]
+
+[ 2017-08-22T22:51:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0020s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='113' )  [ RunTime:0.0010s ]
+
+[ 2017-08-22T22:52:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='113' )  [ RunTime:0.0000s ]
+
+[ 2017-08-22T22:57:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0020s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='113' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-22T22:57:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/order_del' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='120' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

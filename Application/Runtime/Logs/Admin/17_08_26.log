@@ -1,0 +1,114 @@
+[ 2017-08-26T10:47:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.3860s ]
+
+[ 2017-08-26T10:47:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate_change.html?id=4&_=1503715624152
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::delete() should be compatible with Think\Model::delete($options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `h_product_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_product_cate` WHERE (  pc_fid=4 )  [ RunTime:0.0010s ]
+
+[ 2017-08-26T10:47:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0060s ]
+
+[ 2017-08-26T10:47:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate_change.html?id=4&_=1503715657176
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::delete() should be compatible with Think\Model::delete($options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `h_product_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_product_cate` WHERE (  pc_fid=4 )  [ RunTime:0.0010s ]
+
+[ 2017-08-26T10:47:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate_change.html?id=5&_=1503715657177
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::delete() should be compatible with Think\Model::delete($options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `h_product_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_product_cate` WHERE (  pc_fid=5 )  [ RunTime:0.0010s ]
+
+[ 2017-08-26T10:48:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0290s ]
+
+[ 2017-08-26T10:48:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate_change.html?id=3&_=1503715687323
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.1080s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::delete() should be compatible with Think\Model::delete($options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `h_product_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_product_cate` WHERE (  pc_fid=3 )  [ RunTime:0.0000s ]
+
+[ 2017-08-26T10:48:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0060s ]
+
+[ 2017-08-26T10:48:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate_change.html?id=2&_=1503715718671
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0080s ]
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+NOTIC: [2048] Declaration of Common\Model\ProductCateModel::delete() should be compatible with Think\Model::delete($options = Array) D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\ProductCateModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `h_product_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_product_cate` WHERE (  pc_fid=2 )  [ RunTime:0.0010s ]
+

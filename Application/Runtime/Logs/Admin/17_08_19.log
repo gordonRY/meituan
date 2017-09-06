@@ -1,0 +1,30 @@
+[ 2017-08-19T11:18:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.1120s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0020s ]
+
+[ 2017-08-19T14:17:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0870s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.2670s ]
+
+[ 2017-08-19T14:29:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0060s ]
+

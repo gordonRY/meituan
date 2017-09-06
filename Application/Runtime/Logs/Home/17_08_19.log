@@ -1,0 +1,87 @@
+[ 2017-08-19T19:19:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:29:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:30:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:32:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:32:53+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:32:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:33:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:33:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T19:58:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:01:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:04:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:05:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:05:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:05:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:06:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:06:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html?mtt=1.deal%2Fbuytest.0.0.j6j9lrpq
+ERR: 1364:Field 'o_paytime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_code`,`o_saluid`) VALUES ('15031448324032','2017-08-19 20:08:52','66','','','f123afaaa123a35cb4fa941062b74e75','1')
+
+[ 2017-08-19T20:14:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html?mtt=1.deal%2Fbuytest.0.0.j6j9lrpq
+ERR: 1364:Field 'o_status' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_code`,`o_saluid`) VALUES ('15031448745764','2017-08-19 20:08:34','66','','','15d9b20d2a5395257a77dcdd712ebfe4','1')
+
+[ 2017-08-19T20:15:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:30:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html?mtt=1.deal%2Fbuytest.0.0.j6j9zoru
+ERR: 1364:Field 'o_code' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15031458482201','2017-08-19 20:08:48','52','','','1')
+
+[ 2017-08-19T20:31:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html
+ERR: 1364:Field 'o_code' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15031458793824','2017-08-19 20:08:19','66','','','1')
+
+[ 2017-08-19T20:31:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html
+ERR: 1364:Field 'o_code' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15031459098068','2017-08-19 20:08:49','66','','','1')
+
+[ 2017-08-19T20:31:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html
+ERR: 1364:Field 'o_code' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `h_order` (`o_rand`,`o_buildtime`,`o_totalprice`,`o_username`,`o_userid`,`o_saluid`) VALUES ('15031459128743','2017-08-19 20:08:52','66','','','1')
+
+[ 2017-08-19T20:32:41+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T20:33:53+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/order_pay.html?mtt=1.deal%2Fbuytest.0.0.j6jac1na
+ERR: Think\Model:submit方法不存在！
+
+[ 2017-08-19T20:34:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+
+[ 2017-08-19T21:16:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Home/Index/page/index.4kgQai.js
+ERR: 非法操作:page
+

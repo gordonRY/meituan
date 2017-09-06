@@ -1,0 +1,157 @@
+<include file="Public/header"/>
+<div style="margin:10px 150px">
+		<div style="width:160px;background-color:#f8f8f8;border-color:#e7e7e7;float:left">
+		<ul class="nav nav-stacked" style="text-align:center">
+		  <li role="presentation" ><a href="#"><h4>我的主页</h4></a></li>
+		  <li role="presentation"><a href=""><h4>我的订单</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<a href="<{:U('Order/List/all')}>" style=".active:#2BB8AA"><li>团购订单</li></a>
+		  	</ul></a></li>
+		  <li role="presentation"><a href="#"><h4>我的评价</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<a href="<{:U('Comment/Comment/torate')}>"><li>待评价</li> <span class="badge" style="position:relative;top:-20px;left:50px;background:#F76120">14</span></a>
+		  		<a href="<{:U('Comment/Comment/rated')}>"><li>已评价</li></a>
+		  	</ul></a></li>
+		  <li role="presentation"><a href="#" ><h4>退款维权</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<li>我的退款</li>
+		  	</ul></a></li></a></li>
+		  <li role="presentation"><a href="#"><h4>我的账户</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<li>抵用券</li>
+		  		<li>我的余额</li>
+		  		<li>账户设置</li>
+		  		<li>安全中心</li>
+		  	</ul></a></li>
+		  </a></li>
+		</ul>
+	</div>
+	<div style="border:1px solid #EEEEEE;width:1050px;">
+		<table border=0 style="background:#F9F9F9;width:879px;text-align:center">
+			<volist name="res" id="list">
+				<tr bgcolor="white" style="">
+					<td colspan=3 style="text-align:left;" name="oid" id="<{$list.cid}>">订单号<{$list.o_id}></td>
+					<td colspan=1 style="text-align:left;display:none" name="pid" id="<{$list.cid}>"><{$list.product_id}></td>
+				</tr>
+				<tr height="30px">
+					<td rowspan=3 width="90px"><img src="__PUBLIC__/pic/kuanzhai.jpg" alt="" style="width:80px"></td>
+					<td style="text-align:left" colspan=2 id="<{$list.cid}>"><{$list.p_name}></td>
+				</tr>
+				<tr height="30px">	
+					<td style="text-align:left">我的总体评价：						
+						<div class="btn-group" role="group" aria-label="...">
+							<button type="button" class="btn btn-default <{$list['level']==1?'active':''}>" style="margin:0px 10px;height:30px;" value="1" id="<{$list.cid}>">差</button>
+							<button type="button" class="btn btn-default <{$list['level']==2?'active':''}>" style="margin:0px 10px;height:30px" value="2" id="<{$list.cid}>">一般</button>
+							<button type="button" class="btn btn-default <{$list['level']==3?'active':''}>" style="margin:0px 10px;height:30px" value="3" id="<{$list.cid}>">满意</button>
+							<button type="button" class="btn btn-default <{$list['level']==4?'active':''}>" style="margin:0px 10px;height:30px" value="4" id="<{$list.cid}>">很满意</button>
+							<button type="button" class="btn btn-default <{$list['level']==5?'active':''}>" style="margin:0px 10px;height:30px" value="5" id="<{$list.cid}>">极力推荐</button>
+						</div>
+					</td>
+					<td>
+						<button name="modify" id="<{$list.cid}>" style="background:#2BB8AA">修改</button>
+						<button name="delete" id="<{$list.cid}>" style="background:#2BB8AA">删除</button>
+					</td>
+				</tr>
+				<tr height="30px">	
+					<td style="text-align:left;" colspan=2><span style="color:#999999;font-size:12px"><{$list.description}></span></td>
+				</tr>
+				<tr id="<{$list.cid}>" style="display:none">
+					<td colspan=2>
+						<form id="<{$list.cid}>" enctype="multipart/form-data" method="post">
+							<div style="width:475px;height:30px;background:#EEEEEE;margin:10px auto 0px">
+								<button style="float:left;background:#2BB8AA;width:60px">晒图</button>
+	    						<input type="file" name="images[]" style="width:160px;position:relative;left:-60px;opacity:1;float:left" id="<{$list.cid}>" multiple>
+								<span style="float:left;margin-left:20px">图片别超过2M</span>
+								<span style="float:right;"><input type="checkbox" name="anonymous" value="0" id="<{$list.cid}>" <{$list['status']==0?'checked':''}>>匿名评价 </span>
+							</div>
+							<textarea name="description" id="<{$list.cid}>" cols="65" rows="5"><{$list['description']}></textarea><br>
+							<input type="button" name="comment" style="position:relative;left:-200px;background:#FC7610;font-size:20px" id="<{$list.cid}>" value="发表评价">
+						</form>
+					</td>
+				</tr>
+			</volist>
+			<tr>
+				<td colspan=7><{$page}></td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<include file="Public/footer"/>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
+<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+<script>
+	//修改评论
+	$('button[name=modify]').click(function(){
+		cid=$(this).attr('id');
+		$("tr[id="+cid+"]").css('display','');
+		level=$(this).val();
+		//发表评论
+		$("input[name=comment][id="+cid+"]").click(function(){
+			var pid=$("td[name=pid][id="+cid+"]").text();
+			var description=$("textarea[name=description][id="+cid+"]").val();
+			status=$("input[type=checkbox][id="+cid+"]").val();
+			//是否匿名评价
+			if($("button[name=anonymous][id="+cid+"]").is(':checked')){		
+				var status=0;
+			}else{
+				var status=1;
+			}
+			//添加图片
+			$("form[id="+cid+"]").ajaxSubmit({
+				type:'post',
+				data:$(this).serialize(),
+				url:"<{:U('Comment/Comment/uploads')}>",
+				    contentType:false,
+	                cache:false,
+	                processData:false,
+	                dataType:"text",
+				success:function(res){
+					var images=res;
+					$.ajax({
+						type:'post',
+						data:'cid='+cid+'&pid='+pid+'&level='+level+'&description='+description+'&images='+images+'&status='+status,
+						url:"<{:U('Comment/Comment/modify')}>",
+						dataType:'json',
+						success:function(res){
+							if(res){
+								window.location.reload();
+							}else{
+								alert('评论修改出错');
+							}
+						}
+					})
+				}
+			})
+		})
+	})
+	//删除评论
+	$('button[name=delete]').click(function(){
+		cid=$(this).attr('id');
+		oid=$("td[name=oid][id="+cid+"]").text().substring(3);
+		layer.open({
+			icon:1,
+			content: '<h3>确定删除评价？</h3>'
+			,btn: ['确定','取消']
+			,yes: function(){
+				$.ajax({
+					type:'post',
+					data:'cid='+cid+'&oid='+oid,
+					url:"<{:U('Comment/Comment/delete')}>",
+					dataType:'json',
+					success:function(res){
+						if(res){
+							window.location.reload();
+						}else{
+							alert('评论删除出错');
+						}
+					}
+				})
+			},
+			btn2: function(){},
+			cancel: function(){}
+		});
+	})
+
+</script>

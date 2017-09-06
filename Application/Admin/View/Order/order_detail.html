@@ -1,0 +1,161 @@
+
+<html>
+<head>
+	<include file="Public/meta" />
+	<!--[if lt IE 9]>
+<script type="text/javascript" src="__PUBLIC__/h-ui/lib/html5shiv.js"></script>
+<script type="text/javascript" src="__PUBLIC__/h-ui/lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/h-ui/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/h-ui/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/h-ui/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/h-ui/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/h-ui/static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="__PUBLIC__/h-ui/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>建材列表</title>
+<link rel="stylesheet" href="__PUBLIC__/h-ui/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</head>
+<body>
+<div class="info-center">
+	<div class="page-header">
+		<div class="pull-left">
+			<h4>订单详情</h4>
+		</div>
+	</div>
+</div>
+	<div class="clearfix"></div>
+<div >
+	<if condition="$m['o_usestatus']==4">
+	<div class="bg-success" style="height:60px;text-align: center;line-height: 60px;margin: 10px 30px"><span style="font-family:Microsoft Yahei ;font-size: 20px;font-weight: bold"><span class="glyphicon glyphicon-ok" style="color:green;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交易成功</span></div>
+
+	<elseif condition="$m['o_status']==0" />
+		<div class="bg-danger" style="height:60px;text-align: center;line-height: 60px;margin: 10px 30px"><span style="font-family:Microsoft Yahei ;font-size: 20px;font-weight: bold"><span class="glyphicon glyphicon-ban-circle" style="color:orangered;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;订单未支付</span></div>
+		<elseif condition="$m['o_usestatus']==2 && $m['o_status']==1" />
+		<div class="bg-info" style="height:60px;text-align: center;line-height: 60px;margin: 10px 30px"><span style="font-family:Microsoft Yahei ;font-size: 20px;font-weight: bold"><span class="glyphicon glyphicon-credit-card" style="color:darkgreen;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;券码待消费</span></div>
+		<elseif condition="$m['o_usestatus']==3 && $m['o_status']==1" />
+		<div class="bg-danger" style="height:60px;text-align: center;line-height: 60px;margin: 10px 30px"><span style="font-family:Microsoft Yahei ;font-size: 20px;font-weight: bold"><span class="glyphicon glyphicon-usd" style="color:darkblue;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请求退款</span></div>
+
+		<elseif condition="$m['o_usestatus']==3 && $m['o_status']==1" />
+		<div class="bg-danger" style="height:60px;text-align: center;line-height: 60px;margin: 10px 30px"><span style="font-family:Microsoft Yahei ;font-size: 20px;font-weight: bold"><span class="glyphicon glyphicon-usd" style="color:darkblue;font-size: 20px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等待评论</span></div>
+
+	</if>
+<div style="margin:10px 30px ">
+			<table class="table" border="1" style="height:50px">
+				<!-- On rows -->
+				<tr class="warning" >
+					<td class="success"style="text-align: center"><span class="glyphicon glyphicon-user" style="font-size: 16px ;color:darkslateblue">&nbsp;用户:</span><span style="font-size: 15px ;color:darkslategrey;cursor: pointer">&nbsp;&nbsp;&nbsp;{$m.nickname}</span></td>
+					<td class="warning" style="text-align: center"><span class="glyphicon glyphicon-earphone"style="font-size: 16px ;color:darkslateblue">&nbsp;联系方式:</span>&nbsp;&nbsp;&nbsp;<span style="font-size: 15px ;color:darkslategrey;cursor: pointer">{$m.mobile}</span></td>
+				</tr>
+			</table>
+	</div>
+</div >
+	<div style="margin:10px 30px "><span style="font-size: 14px;color:orangered;font-weight: bold">{$m.p_rname}</span><span class="glyphicon glyphicon-chevron-right"></span></div>
+	<div class="mt-20" style="margin:10px 30px ">
+		<table class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+			<tr class="text-c">
+				<th width="160">缩略图</th>
+				<th width="100">商品名</th>
+				<th width="80">单价</th>
+				<th width="60">数量</th>
+				<th width="60">总计</th>
+				<th width="120">使用时间</th>
+				<th width="100">评分</th>
+				<th width="160">评论内容</th>
+				<th width="100">操作</th>
+			</tr>
+			</thead>
+			<tbody>
+					<tr class="text-c va-m" style="text-align: center;font-size: 15px;margin: 10px;padding: 0px">
+						<td style="margin: 10px;padding: 0;width:100px"><img src="__PUBLIC__/{$m.p_theme}" alt="" width="145px" height="75px" style="margin: 5px;padding: 0"></td>
+						<td>{:mb_substr($m['p_name'],0,16,'utf-8')}</td>
+						<td>{$m.p_gprice}元/人</td>
+						<td><span style="font-weight: bold">X</span>{$m.detail_num}</td>
+						<td><span class="glyphicon glyphicon-yen"></span><span style="color:orangered">{$m.o_totalprice}</span></td>
+						<td>
+							<if condition="!empty($m['o_usetime'])">
+							<span style="color:blue">{$m.o_usetime}</span>
+								<else/>
+								<span style="color:green">未消费</span>
+							</if>
+						</td>
+						<if condition="$msg['star']==1">
+						<td>
+							<span class='glyphicon glyphicon-star' style="color: red"></span>
+						</td>
+							<elseif condition="$msg['star']==2"/>
+							<td>
+								<span class='glyphicon glyphicon-star' style="color: red">
+								</span>
+								<span class='glyphicon glyphicon-star'style="color: red">
+								</span>
+							</td>
+							<elseif condition="$msg['star']==3"/>
+							<td>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+							</td>
+							<elseif condition="$msg['star']==4"/>
+							<td>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+							</td>
+							<elseif condition="$msg['star']==5"/>
+							<td>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+
+								<span class='glyphicon glyphicon-star'style="color: red"></span>
+							</td>
+							<else/>
+							<td>
+								该用户还没有评论
+							</td>
+
+						</if>
+						<if condition="$msg==null">
+							<td>该用户还没有评论</td>
+							<else/>
+							<td>{$msg.comment}</td>
+						</if>
+
+
+						<if condition="$m['o_status']==1 && $msg==null && $m['o_usestatus']==1">
+							<td><a href="" style="color:blue">提醒用户评论</a></td>
+							<elseif condition="$m['o_status']==1  && $m['o_usestatus']==2"/>
+							<td><a href="" style="color:blue">提醒用户消费</a></td>
+							<elseif condition="$m['o_status']==1 && $msg!=null && $m['o_usestatus']==1"/>
+							<td><a href="">回复/查看评论</a></td>
+							<elseif condition="$m['o_status']==1 && $m['o_usestatus']==3"/>
+							<td><a href="" style="color:red">同意退款</a></td>
+							<elseif condition="$m['o_status']==0"/>
+							<td><a href="" style="color:red">提醒用户支付</a></td>
+							<elseif condition="$m['o_usestatus']==4 "/>
+							<td><a href="" style="color:red">评论用户</a></td>
+						</if>
+					</tr>
+			</tbody>
+		</table>
+		<div style="text-align: right;margin-right:0px "><button type="button" class="btn btn-primary" name="back">返回</button></div>
+	</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+<script>
+	$("button[name=back]").click(function()
+	{
+        window.history.go(-1);
+    })
+
+</script>

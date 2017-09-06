@@ -1,0 +1,25 @@
+[ 2017-08-27T16:24:39+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.2000s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0690s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0830s ]
+
+[ 2017-08-27T17:57:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0130s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='29' ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0090s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='29' ) [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

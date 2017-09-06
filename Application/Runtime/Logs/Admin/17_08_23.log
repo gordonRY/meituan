@@ -1,0 +1,405 @@
+[ 2017-08-23T08:47:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0870s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0220s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.1820s ]
+
+[ 2017-08-23T08:47:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0210s ]
+
+[ 2017-08-23T08:49:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='16' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T08:49:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='220' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T08:52:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T08:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T08:53:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T08:55:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='76' )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T08:55:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='77' )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T08:57:17+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0050s ]
+
+[ 2017-08-23T09:57:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0',10' at line 1
+ [ SQL语句 ] : select * from h_order where o_saluid='2' and o_rand like '%6481%' limit '0',10
+
+[ 2017-08-23T10:04:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0000s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0040s ]
+
+[ 2017-08-23T10:14:17+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0050s ]
+
+[ 2017-08-23T10:29:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0000s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0390s ]
+
+[ 2017-08-23T10:41:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T10:43:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/addr_change.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_area` WHERE ( fid='1' )  [ RunTime:0.0050s ]
+
+[ 2017-08-23T10:49:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0020s ]
+SQL: UPDATE `h_order` SET `o_usestatus`='1',`o_usetime`='2017-08-23 10:49:49' WHERE ( o_id='121' ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T10:50:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: UPDATE `h_order` SET `o_usestatus`='1',`o_usetime`='2017-08-23 10:50:34' WHERE ( o_id='122' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T17:04:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.1210s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0390s ]
+
+[ 2017-08-23T18:45:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0180s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0040s ]
+
+[ 2017-08-23T20:01:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0720s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0640s ]
+
+[ 2017-08-23T20:03:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from h_auth_group_access aga inner join h_auth_group ag on ag.gid=aga.group_id where aga.uid='2' [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_auth_rule` WHERE ( name='Admin/Order/use_code' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-23T20:05:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0130s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0010s ]
+
+[ 2017-08-23T20:14:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Comment/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0150s ]
+SQL: DELETE FROM `h_comment` WHERE ( msg_id='36' ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_order_detail` WHERE ( detail_msg_id='36' )  [ RunTime:0.0080s ]
+SQL: DELETE FROM `h_order_detail` WHERE ( detail_id='109' ) [ RunTime:0.0130s ]
+SQL: DELETE FROM `h_order` WHERE ( o_id='108' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T20:14:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Comment/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_comment` WHERE ( msg_id='35' ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_order_detail` WHERE ( detail_msg_id='35' )  [ RunTime:0.0310s ]
+SQL: DELETE FROM `h_order_detail` WHERE ( detail_id='108' ) [ RunTime:0.0090s ]
+SQL: DELETE FROM `h_order` WHERE ( o_id='107' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T20:15:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Comment/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_order_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_comment` WHERE ( msg_id='35' ) [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_order_detail` WHERE ( detail_msg_id='35' )  [ RunTime:0.0230s ]
+SQL: DELETE FROM `h_order_detail` WHERE ( detail_id='108' ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_order` WHERE ( o_id='107' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T20:16:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/delete_all.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: delete from h_order where o_id in  (1,2,76,77,78,79,107,108,111,113)  [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='1' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='2' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='76' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='77' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='78' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='79' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='107' [ RunTime:0.0000s ]
+SQL: select * from h_order_detail where detail_oid='108' [ RunTime:0.0000s ]
+SQL: select * from h_order_detail where detail_oid='111' [ RunTime:0.0000s ]
+SQL: select * from h_order_detail where detail_oid='113' [ RunTime:0.0000s ]
+SQL: delete from h_order_detail where detail_id in (1,2,77,78,79,80,108,109,112,114)  [ RunTime:0.0010s ]
+SQL: delete from h_comment where msg_id in (1,31,32,33,34,27,35,36,37,28)  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T20:16:17+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/delete_all.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: delete from h_order where o_id in  (120,121,122,123,124,135,136)  [ RunTime:0.0110s ]
+SQL: select * from h_order_detail where detail_oid='120' [ RunTime:0.0090s ]
+SQL: select * from h_order_detail where detail_oid='121' [ RunTime:0.0220s ]
+SQL: select * from h_order_detail where detail_oid='122' [ RunTime:0.0000s ]
+SQL: select * from h_order_detail where detail_oid='123' [ RunTime:0.0000s ]
+SQL: select * from h_order_detail where detail_oid='124' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='135' [ RunTime:0.0010s ]
+SQL: select * from h_order_detail where detail_oid='136' [ RunTime:0.0010s ]
+SQL: delete from h_order_detail where detail_id in (121,122,123,124,125,136,137)  [ RunTime:0.0010s ]
+SQL: delete from h_comment where msg_id in (38,29,30,39,40,41,42)  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T20:21:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: UPDATE `h_order` SET `o_usestatus`='1',`o_usetime`='2017-08-23 20:21:02' WHERE ( o_id='138' ) [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T20:25:47+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0020s ]
+SQL: UPDATE `h_order` SET `o_usestatus`='1',`o_usetime`='2017-08-23 20:25:47' WHERE ( o_id='139' ) [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T20:37:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/use_code.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: UPDATE `h_order` SET `o_usestatus`='1',`o_usetime`='2017-08-23 20:37:46' WHERE ( o_id='140' ) [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `h_order_detail` [ RunTime:0.0420s ]
+SQL: SELECT hp.p_num,hp.p_id FROM h_order_detail ord inner join h_product hp on hp.p_id=ord.detail_pid  WHERE ( detail_oid='140' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_product` [ RunTime:0.0020s ]
+SQL: UPDATE `h_product` SET `p_num`='1' WHERE ( p_id='15' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T20:39:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Order/order_del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_order` [ RunTime:0.0010s ]
+SQL: SELECT ord.o_usestatus,hod.detail_msg_id FROM h_order ord INNER JOIN h_order_detail hod on hod.detail_oid=ord.o_id  WHERE ( ord.o_id='141' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-23T21:32:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T21:32:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='2017',`email`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0030s ]
+

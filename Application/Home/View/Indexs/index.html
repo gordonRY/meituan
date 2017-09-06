@@ -1,0 +1,77 @@
+<include file="Public/header"/>
+<style>
+	.display_product
+	{
+		width:1094px;
+		height:500px;
+	}
+</style>
+<div>
+	<div style="margin:0px 0px 0px 150px;width:250px;background-color:#f8f8f8;border-color:#e7e7e7;float:left">
+		<ul class="nav nav-stacked" >
+			<foreach name="father" item="vol">
+		  <li role="presentation" class="active"><a href="#">{$vol.pc_name}</a></li>
+			</foreach>
+		</ul>
+	</div>
+	<div>
+		<ul type="none" style="float:left;height:40px;display:inline-block;line-height:40px">
+			<li class="glyphicon glyphicon-fire pull-left" aria-hidden="true" style="display:inline-block;line-height:33px">&nbsp;热门团购</li>
+			<li class="pull-left" style="margin-left:15px"><a href="">代金券</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">自助餐</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">小吃快餐</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">火锅</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">烧烤烤肉</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">甜点饮品</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">江浙菜</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">西餐</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">聚餐宴请</a></li>
+		</ul>
+	</div>
+	<div>
+		<ul type="none" style="float:left;height:40px;display:inline-block;line-height:40px">
+			<li class="glyphicon glyphicon-map-marker pull-left" aria-hidden="true" style="display:inline-block;line-height:33px">&nbsp;全部地区</li>
+			<li class="pull-left" style="margin-left:15px"><a href="">江宁区</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">鼓楼区</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">小吃快餐</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">火锅</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">烧烤烤肉</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">甜点饮品</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">江浙菜</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">西餐</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">聚餐宴请</a></li>
+		</ul>
+	</div>
+	<div>
+		<ul type="none" style="float:left;height:40px;display:inline-block;line-height:40px">
+			<li class="glyphicon glyphicon-th-list pull-left" aria-hidden="true" style="display:inline-block;line-height:33px">&nbsp;热门商圈</li>
+			<li class="pull-left" style="margin-left:15px"><a href="">新街口地区</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">建业万达</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">水游城/夫子庙</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">六合</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">江宁大学城</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">东山镇</a></li>
+			<li class="pull-left" style="margin-left:15px"><a href="">弘扬广场</a></li>
+		</ul>
+	</div>
+	<ul type="none" style="float:left;height:40px;display:inline-block;line-height:40px;position:relative;top:-100px;left:38px">
+		<foreach name="hot_product" item="vol">
+		<li><img src="__PUBLIC__/{$vol.p_theme}" alt="" style="border:1px solid #EEEEEE;width:180px;height:130px"></li>
+		</foreach>
+	</ul>
+</div>
+<div class="display_product">
+<foreach name="hot_product" item="vol">
+		<div style="border:1px solid #EEEEEE;float:left;width:320px">
+			<a href="{:U('Home/Index/product_introduce')}"><img src="__PUBLIC__/{$vol.p_theme}" alt="" style="height:172px"></a>
+			<div style="float:left">
+				<h5>{$vol.p_rname}</h5>
+				<span>{:mb_substr($vol['p_introduce'],0,16,'utf-8')}</span>
+			</div>
+			<div style="float:left;margin-left:10px">
+				<h3>￥{$vol.p_gprice}</h3>
+			</div>
+		</div>
+</foreach>
+</div>
+<include file="Public/footer"/>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <include file="Public/meta" />
+    <link rel="stylesheet" href="__ADMIN_JS__/iCheck-1.0.2/skins/all.css">
+	  <link rel="stylesheet" type="text/css" href="__PUBLIC__/Checkboxes/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Checkboxes/css/build.css">
+</head>
+<body>
+    <div class="info-center">
+        <div class="page-header">
+            <div class="pull-left">
+                <h4>修改管理员</h4>     
+                <a href="javascript:history.go(-1)">
+                    <button class="btn btn-default"><i class="fa fa-level-up"></i>返回</button>
+                </a> 
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="table-margin">
+            <form action="" class="form-horizontal" method="post">
+                <input type="hidden" name="admin_id" value="{$user_data['admin_id']}">
+                <table class="table table-hover contact-template-form">
+                    <tbody>
+                        <tr>
+                            <td width="20%" align="right">管理组：</td>
+                            <td>
+                                <foreach name="data" item="v"> 
+								
+                                    <div class="radio radio-info radio-inline">
+		                        <input type="radio" id="{$v.title}" value="{$v.gid}" name="group_ids"  {$group_data==$v['gid']?checked:''}>
+		                        <label for="{$v.title}">{$v.title} </label>
+		                    </div>
+
+                                </foreach>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" align="right">登陆账号：</td>
+                            <td>
+                                <input class="form-control w-300" type="text" name="admin_name" value="{$user_data['admin_name']}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" align="right">登陆密码：</td>
+                            <td>
+                                <input class="form-control w-300 pull-left" type="password" name="admin_password"><span class="tip-text">如不改密码；留空即可</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" align="right">管理员联系方式：</td>
+                            <td>
+                                <input class="form-control w-300" type="text" name="phone" value="{$user_data['phone']}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" align="right">管理员邮箱：</td>
+                            <td>
+                                <input class="form-control w-300" type="text" name="email" value="{$user_data['email']}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" align="right">状态：</td>
+                            <td>
+                                <label><span class="inputword">允许登录</span> <input class="xb-icheck" type="radio" name="status" value="1" <eq name="user_data['status']" value="1"> checked="checked"</eq> ></label> &emsp; <label><span class="inputword">禁止登录</span> <input class="xb-icheck" type="radio" name="status" value="0" <eq name="user_data['status']" value="0"> checked="checked"</eq> ></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <tD></td>
+                            <td>
+                                <input class="btn btn-primary" type="submit" value="修改">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </form>
+        </div>
+    </div>  
+    <script type="text/javascript" src="__ADMIN_JS__/common.js"></script>
+    <script type="text/javascript" src="__ADMIN_JS__/iCheck-1.0.2/icheck.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.xb-icheck').iCheck({
+            checkboxClass: "icheckbox_minimal-blue",
+            radioClass: "iradio_minimal-blue",
+            increaseArea: "20%"
+        });
+    });
+    </script>
+</body>
+</html>

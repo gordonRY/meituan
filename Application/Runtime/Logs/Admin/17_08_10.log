@@ -1,0 +1,147 @@
+[ 2017-08-10T08:46:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.2080s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0290s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502326019',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`=NULL,`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.1150s ]
+
+[ 2017-08-10T10:09:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502330954',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`=NULL,`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0240s ]
+
+[ 2017-08-10T10:24:20+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:25:41+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:25:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:25:47+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:25:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:25:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:28:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/rule_group.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `h_auth_group` WHERE `id` = '' LIMIT 1  
+
+[ 2017-08-10T10:33:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/rule_group.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `h_auth_group` WHERE `id` = '' LIMIT 1  
+
+[ 2017-08-10T10:43:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T10:59:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T11:06:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/edit_group.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `h_auth_group` SET `title`='临时管理员qq' WHERE `id` = ''
+
+[ 2017-08-10T11:07:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/edit_group.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `h_auth_group` SET `title`='普通管理员r' WHERE `id` = ''
+
+[ 2017-08-10T11:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group/gid/11.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : DELETE FROM `h_auth_group` WHERE `id` = ''
+
+[ 2017-08-10T11:24:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T11:25:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T13:10:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T14:56:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : SELECT u.admin_id,u.status,u.admin_name,aga.group_id,ag.title FROM h_auth_group_access aga RIGHT JOIN h_admin u ON aga.uid=u.admin_id LEFT JOIN h_auth_group ag ON aga.group_id=ag.id  ORDER BY `register_time` ASC 
+
+[ 2017-08-10T15:09:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.title hag.status from h_admin ha inner join h_auth_group_access haga on ha.admi' at line 1
+ [ SQL语句 ] : select ha.name hag.title hag.status from h_admin ha inner join h_auth_group_access haga on ha.admin_id=haga.uid inner join h_auth_group hag on haga.group_id=hag.gid
+
+[ 2017-08-10T15:39:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/edit_admin/id/2.html
+ERR: 1062:Duplicate entry '2-0' for key 'uid_group_id'
+ [ SQL语句 ] : INSERT INTO `h_auth_group_access` (`uid`,`group_id`) VALUES ('2','0')
+
+[ 2017-08-10T16:58:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/edit_admin/id/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `uid` = 2 AND `group_id` = 17' at line 1
+ [ SQL语句 ] : UPDATE `h_auth_group_access` SET  WHERE `uid` = 2 AND `group_id` = 17
+
+[ 2017-08-10T20:48:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/assign_power.html
+ERR: 1054:Unknown column 'title' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `h_admin_nav` WHERE ( title='group' ) LIMIT 1  
+
+[ 2017-08-10T20:50:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/assign_power.html
+ERR: 1054:Unknown column 'title' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `h_admin_nav` WHERE ( title='菜单栏管理' ) LIMIT 1  
+
+[ 2017-08-10T20:50:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/assign_power.html
+ERR: 1146:Table 'md.h_admin_rule' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `h_admin_rule`
+
+[ 2017-08-10T21:09:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/assign_power.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( gid='10' )' at line 1
+ [ SQL语句 ] : UPDATE `h_auth_group` SET  WHERE ( gid='10' )
+
+[ 2017-08-10T21:14:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/U('Admin/Rule/index')
+ERR: 非法操作:U('Admin
+
+[ 2017-08-10T21:29:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502371756',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:0.0390s ]
+
+[ 2017-08-10T21:37:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.5860s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='biubiubiubiu' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='2',`admin_name`='biubiubiubiu',`admin_password`='4deff9159dbe3005a4abb3acf1164f05',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502372270',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='17551106486',`register_time`='1502362446',`supadmin`='0' WHERE ( admin_name='biubiubiubiu' ) [ RunTime:2.2161s ]
+
+[ 2017-08-10T21:37:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/index/index.html
+ERR: 1054:Unknown column 'ag.id' in 'on clause'
+ [ SQL语句 ] : select * from h_auth_group_access aga inner join h_auth_group ag on ag.id=aga.group_id where aga.uid='2'
+
+[ 2017-08-10T21:41:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0070s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502372500',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0450s ]
+
+[ 2017-08-10T22:44:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/admin_user_list.html
+ERR: 1054:Unknown column 'ha.admin_name' in 'field list'
+ [ SQL语句 ] : SELECT ha.admin_name,ha.admin_id,hag.title,ha.status FROM `h_admin` inner join h_auth_group_access haga on ha.admin_id=haga.uid inner join h_auth_group hag on haga.group_id=hag.gid  LIMIT 0,5  
+

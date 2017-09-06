@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <include file="Public/meta" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Checkboxes/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Checkboxes/css/build.css">
+    <style>
+        #check8{
+            position: relative;
+            left:-5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-center">
+        <div class="page-header">
+            <div class="pull-left">
+                <h4>分配权限</h4>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+            <br>
+        <form action="{:U('Admin/Rule/assign_power')}" method="post" class="form-horizontal">
+            <div style="text-align: left">
+                <font color="red"><span class="glyphicon glyphicon-asterisk">&nbsp;</span></font><span style="font-size: 20px;color:#09c;font-weight: bold">用户组别：</span>
+                <foreach name="group" item="g">
+                    <assign name='gid' value="$g['gid']"/>
+                    <div class="radio radio-danger" style="display: inline-block;margin:0px 20px;">
+                        <input
+                                type="radio"
+                                name="group" id="{$g['gid']}group"
+                                value="{$g['gid']}"  {$gid==$get_gid?checked:''} >
+                        <label for="{$g['gid']}group">
+                           <span style="color:orangered;font-size: 16px;">{$g.title}</span>
+                        </label>
+                    </div>
+
+                </foreach>
+            </div>
+            <div class="clearfix"></div>
+            <div class="table-margin">
+                <div id="warp">
+                    <foreach name="father" item="app">
+                        <div class="app">
+                            <p>
+                                <strong>{$app.name}</strong>
+                            </p>
+                            <foreach name="son" item="action">
+                                <if condition="$action['fid']==$app['id']">
+                                <dl>
+                                    <dt><strong  style=" display:inline-block" class="son">
+                                        <div class="checkbox checkbox-info checkbox-circle" style="position: relative;left: 10px">
+                                            <if condition="strstr($rules,$action['rid'].',')">
+                                            <input id="{$action.rid}" class="styled" style="color:red" value="{$action.rid}" name="{$action.name}" type="checkbox" checked >
+                                                <else/>
+                                                <input id="{$action.rid}" class="styled" style="color:red" value="{$action.rid}" name="{$action.name}" type="checkbox" >
+
+                                </if>
+
+
+                                            <label for="{$action.rid}" id="check8">
+                                                <span style="    color:darkcyan;
+    font-size: 16px;font-weight: bold">{$action.name}</span>
+                                            </label>
+                                        </div>
+                                    </strong>
+                                    </dt>
+
+                                    <foreach name="grandson" item="method">
+                <if condition="$method['r_fid']==$action['id']">
+
+                   <div class="checkbox checkbox-success" style="display:inline-block;margin: 10px 10px">
+
+                       <if condition="strstr($rules,$method['rid'])">
+                    <input id={$method.rid} class="styled" type="checkbox" value="{$method.rid}" name="{$method['title']}"  checked>
+                           <else/>
+                           <input id={$method.rid} class="styled" type="checkbox" value="{$method.rid}" name="{$method['title']}" >
+
+                </if>
+                    <label for={$method.rid}>
+                        <span style="color:brown;font-weight: bold;">{$method['title']}</span>
+                    </label>
+                        </div>
+
+
+                </if>
+                                    </foreach>
+                                </dl>
+                                </if>
+                            </foreach>
+                        </div>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center">
+        <button type="submit" class="btn btn-info">确认提交</button></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        </form>
+        <br>
+</body>
+</html>
+<script type="text/javascript">
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
+ $("input[name$=son]:checked").attr("id")
+
+
+    $(".son").click(function()
+    {
+        var obj=$(this).children().children("input");
+        var res=obj.attr("checked")
+        if(res==undefined)
+        {
+            $(this).parent().nextAll().children("input").attr("checked","checked");
+        }
+    })
+
+</script>
+

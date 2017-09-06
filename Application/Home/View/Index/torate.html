@@ -1,0 +1,125 @@
+<include file="Public/header"/>
+<div style="margin:10px 150px">
+		<div style="width:160px;background-color:#f8f8f8;border-color:#e7e7e7;float:left">
+		<ul class="nav nav-stacked" style="text-align:center">
+		  <li role="presentation" ><a href="#"><h4>我的主页</h4></a></li>
+		  <li role="presentation"><a href="#"><h4>我的订单</h4>
+		  <li role="presentation"><a href=""><h4>我的订单</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<a href="<{:U('Order/List/all')}>" style=":active:#2BB8AA"><li>团购订单</li></a>
+		  	</ul></a></li>
+		  <li role="presentation"><a href="#"><h4>我的评价</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<a href="<{:U('Comment/Comment/torate')}>"><li>待评价</li> <span class="badge" style="position:relative;top:-20px;left:50px;background:#F76120">14</span></a>
+		  		<a href="<{:U('Comment/Comment/rated')}>"><li>已评价</li></a>
+		  	</ul></a></li>
+		  <li role="presentation"><a href="#" ><h4>退款维权</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<li>我的退款</li>
+		  	</ul></a></li></a></li>
+		  <li role="presentation"><a href="#"><h4>我的账户</h4>
+		  	<ul type="disc" style="margin-left:50px;text-align:left">
+		  		<li>抵用券</li>
+		  		<li>我的余额</li>
+		  		<li>账户设置</li>
+		  		<li>安全中心</li>
+		  	</ul></a></li>
+		  </a></li>
+		</ul>
+	</div>
+	<div style="border:1px solid #EEEEEE;width:1050px;">
+		<table border=0 style="background:#F9F9F9;width:879px;text-align:center">
+			<volist name="res" id="list">
+				<tr bgcolor="white" style="">
+					<td colspan=2 style="text-align:left;">订单号<{$list.o_id}></td>
+					<td colspan=1 style="text-align:left;display:none" name="pid" id="<{$list.o_id}>"><{$list.product_id}></td>
+				</tr>
+				<tr height="30px">
+					<td rowspan=3 width="90px"><img src="__PUBLIC__/pic/kuanzhai.jpg" alt="" style="width:80px"></td>
+					<td style="text-align:left" colspan=2 id="<{$list.o_id}>"><{$list.p_name}></td>
+				</tr>
+				<tr height="30px">	
+					<td style="text-align:left;" colspan=2><span style="color:#999999;font-size:12px">本次团购体验如何？ 评价可随机赢取最多100积分</span></td>
+				</tr>
+				<tr height="30px">	
+					<td style="text-align:left" colspan=2>我的总体评价：						<div class="btn-group" role="group" aria-label="...">
+							<button type="button" class="btn btn-default" style="margin:0px 10px;height:30px" value="1" id="<{$list.o_id}>">差</button>
+							<button type="button" class="btn btn-default" style="margin:0px 10px;height:30px" value="2" id="<{$list.o_id}>">一般</button>
+							<button type="button" class="btn btn-default" style="margin:0px 10px;height:30px" value="3" id="<{$list.o_id}>">满意</button>
+							<button type="button" class="btn btn-default" style="margin:0px 10px;height:30px" value="4" id="<{$list.o_id}>">很满意</button>
+							<button type="button" class="btn btn-default" style="margin:0px 10px;height:30px" value="5" id="<{$list.o_id}>">极力推荐</button>
+						</div>
+					</td>
+				</tr>
+				<tr id="<{$list.o_id}>" style="display:none">
+					<td colspan=2>
+						<form id="<{$list.o_id}>" enctype="multipart/form-data" method="post">
+							<div style="width:475px;height:30px;background:#EEEEEE;margin:10px auto 0px">
+								<button style="float:left;background:#2BB8AA;width:60px">晒图</button>
+	    						<input type="file" name="images[]" style="width:160px;position:relative;left:-60px;opacity:1;float:left" id="<{$list.o_id}>" multiple>
+								<span style="float:left;margin-left:20px">图片别超过2M</span>
+								<span style="float:right;"><input type="checkbox" name="anonymous" value="0" id="<{$list.o_id}>">匿名评价 </span>
+							</div>
+							<textarea name="description" id="<{$list.o_id}>" cols="65" rows="5"></textarea><br>
+							<input type="button" name="comment" style="position:relative;left:-200px;background:#FC7610;font-size:20px" id="<{$list.o_id}>" value="发表评价">
+						</form>
+
+					</td>
+				</tr>
+			</volist>
+			<tr>
+				<td colspan=7><{$page}></td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<include file="Public/footer"/>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
+<script>
+	//开始评论
+	$('button[type=button]').click(function(){
+		oid=$(this).attr('id');
+		$("tr[id="+oid+"]").css('display','');
+		level=$(this).val();
+		//发表评论
+		$("input[name=comment][id="+oid+"]").click(function(){
+			var pid=$("td[name=pid][id="+oid+"]").text();
+			var description=$("textarea[name=description][id="+oid+"]").val();
+			status=$("input[type=checkbox][id="+oid+"]").val();
+			//是否匿名评价
+			if($("button[name=anonymous][id="+oid+"]").is(':checked')){		
+				var status=0;
+			}else{
+				var status=1;
+			}
+			//添加图片
+			$("form[id="+oid+"]").ajaxSubmit({
+				type:'post',
+				data:$(this).serialize(),
+				url:"<{:U('Comment/Comment/uploads')}>",
+				    contentType:false,
+                    cache:false,
+                    processData:false,
+                    dataType:"text",
+				success:function(res){
+					var images=res;
+					$.ajax({
+						type:'post',
+						data:'oid='+oid+'&pid='+pid+'&level='+level+'&description='+description+'&images='+images+'&status='+status,
+						url:"<{:U('Comment/Comment/rate')}>",
+						dataType:'json',
+						success:function(res){
+							if(res){
+								window.location.reload();
+							}else{
+								alert('评论载入出错');
+							}
+						}
+					})
+				}
+			})
+		})
+	})
+</script>

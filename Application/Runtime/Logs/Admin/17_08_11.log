@@ -1,0 +1,3081 @@
+[ 2017-08-11T08:40:20+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502412020',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0050s ]
+
+[ 2017-08-11T10:40:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502419203',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.0630s ]
+
+[ 2017-08-11T11:21:39+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/%7BU('Admin/Rule/delete_admin'%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{U('Admin
+
+[ 2017-08-11T11:23:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/%7B%20:U('Admin/Rule/delete_admin'%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{ :U('Admin
+
+[ 2017-08-11T11:29:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T11:31:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-11T13:18:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:19:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:19:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:20:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:21:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T13:21:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T13:22:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='' ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:31:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='7' ) [ RunTime:0.1210s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0130s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='7' ) [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-11T13:31:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='7' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='7' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:33:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='8' ) [ RunTime:0.1210s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0200s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='8' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-08-11T13:34:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='5' ) [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0170s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='5' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T13:36:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='9' ) [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0380s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='9' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:38:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='10' ) [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='10' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:39:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='11' ) [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0890s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='11' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T13:42:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='19' ) [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='19' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:42:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='18' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0490s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='18' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T13:42:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='17' ) [ RunTime:0.0910s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0190s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='17' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-11T13:42:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='13' ) [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0200s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='13' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:46:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='14' ) [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='14' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-11T13:46:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='15' ) [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0720s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='15' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:46:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='16' ) [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='16' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-08-11T13:48:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='21' ) [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='21' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:52:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='20' ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0230s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='20' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:53:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='22' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0230s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='22' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T13:55:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='23' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0090s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='23' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-11T13:56:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='24' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='24' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T14:23:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/check_user/group_id/%2Bgid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+
+[ 2017-08-11T14:38:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/check_user/group_id/%2Bgid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+
+[ 2017-08-11T14:38:47+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/check_user/group_id/%2Bgid%2B.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+
+[ 2017-08-11T14:48:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/check_user/group_id/%2Bgid%2B.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '+gid+' LIMIT 1  
+
+[ 2017-08-11T14:49:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/check_user.html?group_id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '17' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `h_auth_group` WHERE `id` = '17' LIMIT 1  
+
+[ 2017-08-11T14:52:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?group_id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:1.1221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-08-11T14:53:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?group_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T14:54:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='18' ) [ RunTime:0.0460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T14:57:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0030s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='19' ) [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T14:57:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_admin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_admin` WHERE ( admin_id='25' ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group_access` [ RunTime:0.0080s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\ThinkPHP\Library\Think\Model.class.php 第 550 行.
+SQL: DELETE FROM `h_auth_group_access` WHERE ( uid='25' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T14:57:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='20' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T15:03:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='21' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T15:03:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0030s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T15:04:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-11T15:04:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-11T15:04:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0020s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T15:28:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7BU:('Admin/Nav/delete')%7D?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{U:('Admin
+
+[ 2017-08-11T15:28:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7BU:('Admin/Nav/delete')%7D?id=1
+ERR: 非法操作:{U:('Admin
+
+[ 2017-08-11T15:29:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7B%20U:('Admin/Nav/delete')%7D?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{ U:('Admin
+
+[ 2017-08-11T15:31:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7BU:('Admin/Nav/delete')%7D?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{U:('Admin
+
+[ 2017-08-11T15:31:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7BU:('Admin/Nav/delete')%7D?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{U:('Admin
+
+[ 2017-08-11T15:33:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/%7BU:(%22Admin/Nav/delete%22)%7D?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+ERR: 非法操作:{U:("Admin
+
+[ 2017-08-11T15:36:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/delete.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T15:36:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Nav/delete.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0730s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE `fid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-11T15:58:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0010s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502438296',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.1010s ]
+
+[ 2017-08-11T17:22:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.1040s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502443323',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.2632s ]
+
+[ 2017-08-11T18:35:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Rule/delete_group.html?gid=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') D:\webserver\wamp64\www\Thinkphp_meddle\b2b2c\Application\Admin\Model\AdminNavModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `h_admin_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `h_admin_nav` WHERE ( pc_level=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `h_auth_group` [ RunTime:0.0010s ]
+SQL: DELETE FROM `h_auth_group` WHERE ( gid='22' ) [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-11T18:41:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:21+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:21+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:41:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:42:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:44:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:45:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:45:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:45:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:45:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:47:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:49:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:49:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:49:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:49:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:49:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:51:17+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:51:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:51:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:53:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:53:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:53:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:53:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:57+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:54:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:41+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:41+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:43+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:44+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:55:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/cate.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:36+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:38+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:39+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:39+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:39+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:56:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:16+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:19+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:20+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:21+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:23+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:27+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:58:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:13+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T18:59:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 无法加载控制器:Product
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:00:50+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:00:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:00:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:00:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:01:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:48+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:49+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:02:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:03:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:03:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:05:18+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:06:40+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:07:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:07:26+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-category-add.html
+ERR: 非法操作:product-category-add
+
+[ 2017-08-11T19:07:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:55+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:07:56+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:08:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:08:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:18:12+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:48:32+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:48:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:34+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:51:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:24+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:53:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:53:25+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:54:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:55:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:56:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:56:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:56:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:56:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:57:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:57:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:57:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:03+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:04+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:08+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T19:58:11+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:05+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:58+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:00:59+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:00+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:01:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:01:02+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:28+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:11:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:12:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:15+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:46+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `h_admin` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `h_admin` WHERE ( admin_name='admin' )  [ RunTime:0.0250s ]
+SQL: UPDATE `h_admin` SET `admin_id`='1',`admin_name`='admin',`admin_password`='21232f297a57a5a743894a0e4a801fc3',`status`='1',`last_login_ip`='0.0.0.0',`last_login_time`='1502453625',`avatar`=NULL,`email`=NULL,`email_code`=NULL,`phone`='13952876486',`register_time`='1502362446',`supadmin`='1' WHERE ( admin_name='admin' ) [ RunTime:0.1180s ]
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:51+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:13:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T20:14:09+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 非法操作:product_category
+
+[ 2017-08-11T20:14:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T20:14:29+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 非法操作:product_category
+
+[ 2017-08-11T20:14:30+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T20:14:31+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_category.html
+ERR: 非法操作:product_category
+
+[ 2017-08-11T20:39:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* )' at line 1
+ [ SQL语句 ] : SELECT * FROM `h_product_cate` WHERE ( * ) 
+
+[ 2017-08-11T20:56:45+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T21:57:33+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T22:07:35+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T22:19:54+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product_list.html
+ERR: 非法操作:product_list
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:07+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/My97DatePicker/4.8/WdatePicker.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/datatables/1.10.0/jquery.dataTables.min.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:20:22+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/lib/laypage/1.2/laypage.js
+ERR: 非法操作:lib
+
+[ 2017-08-11T22:26:21+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:26:37+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:31:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:31:10+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:38:06+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:38:14+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:42:01+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:47:42+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+
+[ 2017-08-11T22:47:52+08:00 ] ::1 /Thinkphp_meddle/b2b2c/Admin/Product/product-add.html
+ERR: 非法操作:product-add
+

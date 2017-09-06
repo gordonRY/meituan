@@ -1,0 +1,54 @@
+<include file="Public/header"/>
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="__PUBLIC__/Home/bootstrap/css/bootstrap.min.css" >
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="__PUBLIC__/Home/bootstrap/js/bootstrap.min.js"></script>
+<style type="text/css">
+.info_success
+{
+	
+	width:87%;
+	margin:10px auto;
+	height:auto;
+}
+.infos
+{
+	
+	width:910px;
+	margin:10px auto;
+	height:282px;
+	text-align:center;
+}
+.infos_f
+{
+	font-size:50px;
+	color:green;
+}
+
+</style>
+<hr width="87%">
+<div class="info_success " >
+	<div class="infos">
+	<span class="infos_f glyphicon glyphicon-ok-circle "></span>
+	<span style="font-size:30px;font-weight:blod;position:relative;top:-10px;">订单信息</span>
+	<div>
+	<p style="font-size:18px;font-weight:blod">订单编号：<span style="color:orangered;font-size: 20px;font-weight: bold">{$m.o_rand}</span></p>
+	<p style="font-size:18px;font-weight:blod">代金券券码：<span style="color:orangered;font-size: 20px;font-weight: bold">{$m.o_code}</span></p>
+	</div>
+	<br>
+	<div class="back">
+		<a href="{:U('Home/Index/all')}"><button type="button" class="btn btn-primary">查看订单</button></a>
+	&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;
+	<button type="button" class="btn btn-primary">继续购物</button>
+	
+	</div>
+
+	</div>
+
+
+
+
+</div>
+
+<include file="Public/foot"/>

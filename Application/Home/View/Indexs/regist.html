@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美团注册</title>
+	<style type="text/css">
+		*{margin:0px;padding:0px;}
+		.big{width:550px;border:0px solid red;
+			margin:50px auto;
+		}
+		.big div{
+			margin:10px 0px;border:0px solid red;
+			height:60px;
+		}
+		.big div p{
+			margin:5px 85px;
+		}
+		.big div span{
+			display:inline-block;width:80px;
+			font-family:微软雅黑;
+		}
+		.big div input[type=text],.big div input[type=password]{
+			width:250px;height:25px;
+		}
+		.big div a{margin-left:100px;color:#2BB8AA;font-size:15px;}
+		.big div input[type=submit]{
+			width:200px;height:40px;
+			font-family:微软雅黑;background:#2CB8AA;color:white;
+			border:0;border-radius:5px;
+			display:block;margin-left:100px;
+		}
+		label.error{
+			color:red;font-size:15px;font-family:"微软雅黑";
+			margin-left:8px;
+		}
+	</style>
+</head>
+<body>
+	<div style="margin:0px 150px">
+		<a href="<{:U('Home/Index/index')}>" style="float:left;"><img src="__PUBLIC__/pic/meituan.jpg" alt=""></a>
+		<a href="<{:U('User/User/login')}>" style="float:right;font-size:18px;background:#2CB8AA;color:white;border-radius:5px;width:60px;height:28px;text-align:center;margin-top:15px">登陆</a>
+		<span style="float:right;font-family:宋体;margin-top:20px;">已有美团账号？</span>
+		<hr style="clear:both">
+	</div>
+<div class="big">
+	<form id="form" >
+		<div>
+			<span>用户名</span>
+			<input type="text" name="user">
+			<p></p>
+		</div>
+		<div>
+			<span>密码</span>
+			<input type="password" name="pwd">
+			<p></p>
+		</div>
+		<div>
+			<span>确认密码</span>
+			<input type="password" name="surePwd">
+			<p></p>
+		</div>
+		<div>
+			<span>手机号</span>
+			<input type="text" name="phone">
+			<p></p>
+		</div>
+		<div>
+			<span>邮箱</span>
+			<input type="text" name="mail">
+			<p></p>
+		</div>
+		<div>
+			<span>验证码</span>
+			<input type="text" name='verify' style="width:125px;height:28px" >
+			<p id="verify_error" style="color:red"></p>
+			<img src="<{:U('User/User/makeVerify')}>" alt="" id='verify' width='150px' style="position:absolute;top:453px;left:650px">
+		</div>
+		<div>
+			<input type="submit" name="sub" value="同意以下协议并注册">
+		</div>
+		<div>	
+			<a href="http://www.meituan.com/about/terms" target="_blank">《美团网用户协议》</a>
+		</div>
+	</form>
+</div>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/additional-methods.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+	//验证提交
+	<script type="text/javascript">
+		$("#form").validate({
+			//配置验证规则
+			rules:{
+				user:{
+					required:true,
+					maxlength:20,
+					minlength:5,
+					remote:"<{:U('User/User/userCheck')}>"
+				},
+				pwd:{
+					required:true,
+					maxlength:20,
+					minlength:5
+				},
+				surePwd:{
+					equalTo:"input[name=pwd]"
+				},
+				mail:{
+					required:true,
+					email:true
+				},
+				phone:{
+					required:true,
+					isPhone:true
+				},
+				verify:{
+					required:true,
+					remote:"<{:U('User/User/checkVerify')}>"
+				}
+			},
+			//配置报错信息
+			messages:{
+				user:{
+					required:"用户名必填",
+					maxlength:"用户名不能超过20个字符",
+					minlength:"用户名不能小于5个字符",
+					remote:"用户名已被注册"
+				},
+				pwd:{
+					required:"密码必填",
+					maxlength:"密码不能超过20个字符",
+					minlength:"密码不能小于5个字符"
+				},
+				surePwd:{
+					equalTo:"必须和密码填写的内容一致"
+				},
+				mail:{
+					required:"邮箱必填",
+					email:"请填写正确格式的邮箱"
+				},
+				phone:{
+					required:"手机号必填",
+					isPhone:"请填写正确格式的手机号",
+				},
+				verify:{
+					required:"请填写验证码",
+					remote:"验证码不正确"
+				}
+			},
+			// 调试模式：只验证，不提交表单
+			// debug:false
+			// 制定错误信息在页面中的位置
+			errorPlacement:function(error,element){
+				// element是被验证的表单控件对象
+				error.appendTo(element.next())
+			},
+			onkeyup:false,
+			//设置表单提交....
+			submitHandler:function(form){
+				// 使用ajaxsubmit进行表单提交时，需要引入一个jquery.form.js的文件
+				$(form).ajaxSubmit({
+					type:"post",
+					url:"<{:U('User/User/register')}>",
+					success:function(res){
+						if(res==1){
+							layer.alert('注册成功',{icon:1},function(index){
+								window.location.href="<{:U('User/User/login')}>";
+							})
+						}else{
+							layer.alert('注册失败',{icon:2},function(index){
+								window.location.reload();
+							})
+						}
+					}
+				});
+			}
+		})
+		$("#verify").click(function(){
+			var num=Math.random();
+			var src="<{:U('User/User/makeVerify/num/"+num+"')}>";
+			$(this).attr('src',src);
+		})
+		//失去焦点时触发验证码验证
+		// $('input[name=verify]').blur(function(){
+		// 	var val=$(this).val();
+		// 	$.ajax({
+		// 		type:"post",
+		// 		data:"verify="+val,
+		// 		url:"<{:U('User/User/checkVerify')}>",
+		// 		dataType:"json",
+		// 		success:function(res){
+		// 			if(res.status==0){
+		// 				$('#verify_error').html(res.info);
+		// 			}
+		// 		}
+		// 	})
+		// })
+	</script>
+</body>
+</html>	

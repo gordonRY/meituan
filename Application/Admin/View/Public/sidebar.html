@@ -1,0 +1,25 @@
+<div class="subNavBox">
+    <foreach name="sidebar_far" item="vo">
+        <div class="sBox">
+            <div class="subNav sublist-down">
+                <span class="title-icon glyphicon glyphicon-chevron-right"></span>
+                <span class="sublist-title">{$vo.name}</span>
+            </div>
+            <ul class="navContent" style="display:none">
+                <foreach name="sidebar_son" item="n">
+                    <if condition="$n['fid']==$vo['id']">
+                    <li class="nav-li">
+                        <div class="showtitle" style="width:100px;">
+                            <img src="__ADMIN_IMAGES__/leftimg.png" />{$n.name}
+                        </div>
+                        <a href="{:U($n['mca'])}" target="right_content">
+                            <span class="sublist-icon glyphicon glyphicon-record"></span>
+                            <span class="sub-title">{$n.name}</span>
+                        </a> 
+                    </li>
+                    </if>
+                </foreach>
+            </ul>
+        </div>
+    </foreach>
+</div>

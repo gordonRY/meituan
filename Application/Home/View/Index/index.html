@@ -1,0 +1,309 @@
+<include file="Public/header" />
+<div class="site-mast__site-nav-w">
+    <div class="site-mast__site-nav">
+        <div  class="site-mast__site-nav-inner" >
+            <div data-component="cate-nav" class="component-cate-nav" mt-scope='[]'  data-component-config='{"lazyRender":false}'><img src='data:image/png,' onerror='M._autoinit.push(this.parentNode);this.parentNode.removeChild(this);' width=1 height=1 style='position:absolute;'><span class="mt-cates J-nav__trigger">
+
+全部分类</span>
+                <div class="cate-nav J-nav__list J-nav__list--present cateNavNew" data-mtnode="Acategory.Enavcategory"  data-mod="nc" >
+ <!--开始遍历分类-->
+    <foreach  name="father" item="vol">
+    <div class="J-nav-item">
+    <div class="cate-nav__item J-cate-nav__item--1 cate-nav__item--1 cate-nav__item--has-l2 " >
+        <div  class="nav-level1 nav-level1--first" >
+            <dl >
+                <dt><a class="nav-level1__label" href="#{$vol.pc_id}" hidefocus="true"> {$vol.pc_name}</a> </dt>
+            </dl>
+            <i class="nav-level2-indication F-glob F-glob-caret-right-thin"></i>
+        </div>
+        <div class="nav-level2 J-nav-level2 nav-waterfall" data-level1="1" style="display:none;">
+            <div class="nav-level2-item nav-level2-keywords">
+                <div class="nav-level2-keywords--title"><a href=""   gaevent="nav/category/meishi">{$vol.pc_name}</a></div>
+                    <ul class="nav-level2-keywords--content">
+                        <foreach name="son" item="v">
+                            <if condition="$v['pc_fid']==$vol['pc_id']">
+                        <li><a class="keywords__item " href=""   gaevent="">{$v.pc_name}</a></li>
+                            </if>
+                        </foreach>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+    </foreach>
+    <!--遍历分类结束-->
+
+</div>
+</div>
+                <!--start写死的数据-->
+                <nav>
+                    <ul class="navbar cf "  data-mod="lz" data-mod-deepview="1">
+                        <li class="navbar__item-w ">
+                            <a  class="navbar__item"  href=""   gaevent="nav/today" hidefocus="true"><span class="nav-label">首页</span></a>
+                        </li>
+                        <li class="navbar__item-w ">
+                            <a  class="navbar__item"  href=""   gaevent="nav/new" hidefocus="true"><span class="nav-label">今日新单</span></a>
+                        </li>
+                        <li class="navbar__item-w ">
+                            <a  class="navbar__item"  href=""  data-mttcode="Acategory.Bmeishi"  gaevent="nav/meishi" hidefocus="true"><span class="nav-label">美食</span></a>
+                        </li>
+                        <li class="navbar__item-w ">
+                            <a  class="navbar__item"  href=""   target="_blank" gaevent="nav/waimai" hidefocus="true"><span class="nav-label">身边外卖</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--end写死的数据-->
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    
+
+    
+    <div id="bdw" class="bdw">
+        <div id="bd" class="cf">
+            
+
+
+
+<noscript hidden style="display:none;"  data-comboajax-uri='/index/tips/index/floornewV2' data-comboajax-onsuccess='$request.listen("www-tips", "www.Tips");' data-comboajax-data='{"sysmsg":true,"commontips":true,"page":"index"}' data-comboajax-state='0' data-parent="body"></noscript>
+
+<div class="content">
+    <div class="content__header">
+        <!-- 首屏 -->
+        <div data-component="floor-fsnew" class="component-floor-fsnew" mt-scope='[]'  data-component-config='{"lazyRender":false}'><img src='data:image/png,' onerror='M._autoinit.push(this.parentNode);this.parentNode.removeChild(this);' width=1 height=1 style='position:absolute;'><div class="floor-fsnew cf">
+    <div class="fs site-fs J-site-fs__content">
+        <div data-component="index-hotfilter" class="component-index-hotfilter" mt-scope='[]'  data-component-config='{"lazyRender":false}'><img src='data:image/png,' onerror='M._autoinit.push(this.parentNode);this.parentNode.removeChild(this);' width=1 height=1 style='position:absolute;'><div class="content__cell content__cell--hot content__cell-small">
+    <h3 class="label"><i class="F-glob F-glob-hot"></i><span>热门团购</span></h3>
+    <div class="filter-strip">
+        <ul class="filter-strip__list">
+            <!--按照pc_hot遍历子集分类-->
+            <foreach name="hot" item="vol">
+                <if condition="$vol['pc_hot'] egt 30">
+            <li><a href=""  class="hot" >{$vol.pc_name}</a></li>
+                <else/>
+                    <li><a href="" >{$vol.pc_name}</a></li>
+                </if>
+            </foreach>
+        </ul>
+    </div>
+</div>
+<div class="content__cell content__cell--geo J-filter__geo content__cell-small">
+    <h3 class="label"><i class="F-glob F-glob-position"></i><span>全部区域</span></h3>
+    <div class="filter-strip">
+        <a href="" class="filter-strip__all J-geo-more">更多<span class="tri"></span></a>
+        <ul class="filter-strip__list">
+            <li><a href="http://nj.meituan.com/category/all/jiangningqu" >江宁区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/gulouqu" >鼓楼区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/xuanwuqu" >玄武区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/jianyequ" >建邺区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/qinhuaiqu" >秦淮区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/qixiaqu" >栖霞区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/luhequ" >六合区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/yuhuataiqu" >雨花台区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/pukouqu" >浦口区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/gaochunqu" >高淳区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/lishuixian" >溧水区</a></li>
+            <li><a href="http://nj.meituan.com/category/" ></a></li>
+        </ul>
+    </div>
+</div>
+<div class="content__cell content__cell--area content__cell-small">
+    <h3 class="label"><i class="F-glob F-glob-shangquan"></i><span>热门商圈</span></h3>
+    <div class="filter-strip">
+        <ul class="filter-strip__list">
+            <li><a href="http://nj.meituan.com/category/all/xinjiekoudequ" >新街口地区</a></li>
+            <li><a href="http://nj.meituan.com/category/all/jianyemoda" >建邺万达</a></li>
+            <li><a href="http://nj.meituan.com/category/all/fuzimiaoshuiyoucheng" >夫子庙/水游城</a></li>
+            <li><a href="http://nj.meituan.com/category/all/liuhe" >六合</a></li>
+            <li><a href="http://nj.meituan.com/category/all/jangningdaxuecheng" >江宁大学城</a></li>
+            <li><a href="http://nj.meituan.com/category/all/dongshanzhen" >东山镇</a></li>
+            <li><a href="http://nj.meituan.com/category/all/gygc" >弘阳广场/新一城</a></li>
+            <li><a href="http://nj.meituan.com/category/all/maqun" >马群街道</a></li>
+            <li><a href="http://nj.meituan.com/category/all/tongxi" >同曦商业圈</a></li>
+            <li><a href="http://nj.meituan.com/category/all/tuolejia" >托乐嘉</a></li>
+            <li><a href="http://nj.meituan.com/category/all/dejishangquan" >德基商圈</a></li>
+            <li><a href="http://nj.meituan.com/category/all/shanxiluhunanlu" >山西路/湖南路</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+        <div class="floor-fs-new__activity">
+    <div class="promotion"  data-mod="ip" data-mod-selector=".left,.right">
+        <ul class="promotion__slider J-promotion__slider cf">
+
+
+                <volist name="hot_product" id="vol"  mod="2">
+                    <li class="sheet" style="">
+
+                        <div  class="left choice__item" >
+                            <a class="link ccf" target="_blank"  href="{:U('Home/index/product_introduce',array('id'=>$vol['p_id']))}">
+                                <img class="img" width="333" height="232" src="__PUBLIC__/{$vol.p_theme}" alt="{$vol.p_rname}-美团" onload="M.logFirstScreenTime(this)"/>
+                            </a>
+                            <div class="title">
+                                <a class="xtitle link ccf" target="_blank" href="{:U('Home/index/product_introduce',array('id'=>$vol['p_id']))}">{$vol.p_rname}</a>
+                                <p class="desc">{$vol.p_introduce}</p>
+                            </div>
+                            <span class="price">¥<strong>{$vol.p_gprice}</strong></span>
+                        </div>
+
+                        <!--右边的遍历-->
+                        <volist name="hot_product" id="v"  mod="2" Offset="3">
+
+                        <div  class="right choice__item" >
+                            <a class="link ccf" target="_blank"  href="{:U('Home/index/product_introduce',array('id'=>$v['p_id']))}">
+                                <img class="img" width="333" height="232" src="__PUBLIC__/{$v.p_theme}" alt="{$v.p_rname}-美团" onload="M.logFirstScreenTime(this)"/>
+                            </a>
+                            <div class="title">
+                                <a class="xtitle link ccf" target="_blank" href="{:U('Home/index/product_introduce',array('id'=>$v['p_id']))}">{$v.p_rname}</a>
+                                <p class="desc">{$v.p_introduce}</p>
+                            </div>
+                            <span class="price">¥<strong>{$v.p_gprice}</strong></span>
+                        </div>
+                        </volist>
+                        <!--右边的遍历结束-->
+
+
+
+                    </li>
+                </volist>
+        </ul>
+        <div class="pre-next">
+            <a style="display:none;" href="javascript:void(0);" hidefocus="true" class="mt-slider-previous sp-slide--previous"></a>
+            <a style="display:none;" href="javascript:void(0);" hidefocus="true" class="mt-slider-next sp-slide--next">
+                <span class="J-slider-index slider-index">1</span><span class="slider-count">/{$total}</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="qrcode-image">
+    <img src="//s0.meituan.net/bs/file/?f=fewww:/www/img/app-qrcode.png@088bc3b" />
+</div>
+
+    <div class="side__new-topic ui-slider"  data-mod="ii" data-mod-deepview="1">
+    <ul class="new-topic__slider J-new-topic__slider cf">
+            <li class="sheet" style="">
+                <a class="wrapper"  href="" target="_blank" title="每日上新" data-mod-idx="">
+                    <div class="title__main">
+                        <div>每日上新</div>
+                        <div class="title__deputy">
+                            吃喝玩乐最低价
+                        </div>
+                    </div>
+                    <img width="198" src="http://p0.meituan.com/tuanpic/a90e6f506f86cb29f4b4eb70a628ccba37411.png" />
+                </a>
+            </li>
+    </ul>
+</div>
+
+</div>
+</div>
+    </div>
+
+
+
+
+<!--便利全部商品+展示-->
+    <foreach name="father" item="vol">
+    <div class="content__body" id="yui_3_16_0_1_1503670773277_680">
+        <div data-comboajax-uri="/index/hotsandrec" data-comboajax-onsuccess="this.setHTML($response.html);" data-comboajax-state="5"></div>
+
+        <div data-component="category-list" class="component-category-list mt-component--booted" mt-scope="[]" data-component-config="{&quot;css&quot;:&quot;fewww:\/www\/css\/category-list.css@3841c15&quot;}" id="yui_3_16_0_1_1503670773277_18"><div class="category-list log-mod-viewed" data-mod="im" id="yui_3_16_0_1_1503670773277_7654">
+            <div class="category-floor " id="yui_3_16_0_1_1503670773277_7653">
+                <div id="floor-category--meishi" class="category-floor__head cf" data-mtnode="Acategory">
+                    <div id="{$vol.pc_id}"></div>
+                    <ul class="sub-categories">
+                        <li class="sub-categories__cell ">
+                            <a target="_blank" href="/category/meishi" class="link">{$vol.pc_name}</a>
+                        </li>
+
+                        <!--遍历子集-->
+                        <foreach name="son" item="v">
+                            <if condition="$v['pc_fid']==$vol['pc_id']">
+                        <li class="sub-categories__cell sub-categories__cell--all">
+                            <a target="_blank" href="" class="link" data-mttcode="Call">
+                                {$v['pc_name']}<i class="F-glob F-glob-caret-right-small"></i>
+                            </a>
+                        </li>
+                            </if>
+                </foreach>
+                        <li class="sub-categories__cell sub-categories__cell--all">
+                            <a target="_blank" href="/category/meishi" class="link" data-mttcode="Call">
+                                全部<i class="F-glob F-glob-caret-right-small"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="title" href="/category/meishi" target="_blank" data-mttcode="Cmeishi">
+                        <i class="icon F-glob F-glob-meishi"></i>
+                        {$vol.pc_name}
+                    </a>
+                </div>
+
+                <!--遍历商品-->
+<foreach name="product" item="pro">
+    <if condition="$pro['p_fpcid']==$vol['pc_id']">
+                <div class="category-floor__body cf deal-list--floor-new" data-mtnode="Anone" id="yui_3_16_0_1_1503670773277_7652">
+                    <div data-component="deal-list" class="component-deal-list mt-component--booted" mt-scope="[]" data-component-config="{&quot;lazyRender&quot;:false,&quot;afterLoad&quot;:false}" id="yui_3_16_0_1_1503670773277_7651">    <div class="deal-tile" data-mteventnd="{&quot;id&quot;:24975319,&quot;pos&quot;:1}" data-mttcode="C1">
+                        <a href="{:U('Home/index/product_introduce',array('id'=>$pro['p_id']))}" class="deal-tile__cover J-mtad-link" hidefocus="true" target="_blank" data-mtevent="{&quot;sr&quot;:&quot;cover&quot;}">
+                            <img class="J-webp" width="260" height="154" alt="" src="__PUBLIC__/{$pro.p_theme}">
+                            <span class="deal-mark">
+                <span class="deal-mark__item deal-mark__item--pois" title="多套餐">多套餐</span>
+                <span class="deal-mark__item deal-mark__item--nnbooking" title="免预约">免预约</span>
+        </span>
+                        </a>
+
+                        <h3 class="deal-tile__title">
+                            <a href="{:U('Home/index/product_introduce',array('id'=>$pro['p_id']))}" class="w-link J-mtad-link" title="{$pro.p_name}" hidefocus="true" target="_blank" data-mtevent="{&quot;sr&quot;:&quot;title&quot;}">
+                                <span class="xtitle">{$pro['p_rname']}</span>
+                                <span class="short-title">{:mb_substr($pro['p_introduce'],0,13,'utf-8')}</span>
+                            </a>
+                        </h3>
+
+                        <p class="deal-tile__detail">
+                            <span class="price">¥<strong>{$pro.p_gprice}</strong></span>
+                            <span class="value">门店价 <del class="num"><span>¥</span>{$pro.p_sprice}</del></span>
+                            <span class="sales">
+            已售<strong class="num">{$pro.p_num}</strong>
+</span>
+
+                        </p>
+
+                        <div class="deal-tile__extra">
+                            <p class="extra-inner">
+                                <a href="http://nj.meituan.com/deal/24975319.html#anchor-reviews" class="rate-info J-mtad-link" hidefocus="true" target="_blank" data-mtevent="{&quot;sr&quot;:&quot;rating&quot;}">
+                <span class="rate-info__bar common-rating">
+                    <span class="rate-stars" style="width: 86%;"></span>
+                </span>
+                                    <span class="rate-info__count">13492人评价</span>
+                                </a>
+
+                            </p>
+                        </div>
+
+                    </div>
+    </if>
+</foreach>
+                <!--遍历结束-->
+
+
+
+                    </div>
+                </div>
+                <div class="category-floor__foot" data-mtnode="Acategory">
+                    <a href="/category/meishi" target="_blank" class="link">
+                        <span>更多美食团购，请点击查看<i class="link__icon F-glob F-glob-caret-right-small"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </foreach>
+    <br>
+    <br>  <br>
+
+    <include file="Public/foot"/>
